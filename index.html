@@ -1,77 +1,293 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sai Mourya Buchi - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <>
+    <link href="css/styles.css" rel="stylesheet">
 </head>
+
 <body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
     <header>
-        <div class="container">
-            <h1>Sai Mourya Buchi</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
         </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
     </header>
+    <!-- End header -->
 
-    <section id="about">
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Sai Mourya Buchi</h1>
+            <h2>Software Engineer</h2>
+            <a href="#" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
         <div class="container">
-            <div class="about-left">
-                <img src="DP.jpeg" alt="Sai Mourya Buchi">
-                <h2>Sai Mourya B</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        I am a Computer Science Master's candidate at the University of Rochester, equipped with a Bachelor's degree in Mathematics & Computing from the Indian Institute of Technology, Hyderabad. In my two years as a Member Of Technical Staff at EdgeVerve, I played a pivotal role in developing a versatile mobile application for multi-company product order management. My technical expertise encompasses Node, Angular, Ionic, Java, Python, and Android development, with a strong focus on backend-related work.
+                    </p>
+
+                    <p>
+                        Currently seeking opportunities as a full-stack, backend engineer, or cloud engineer, I am eager to leverage the knowledge gained during my master's program. I am passionate about creativity, continuous learning, and problem-solving, traits that I believe contribute to my ability to bring diverse perspectives and experiences to any team.
+                    </p>
+                </div>
             </div>
-            <div class="about-right">
-                <h2>About Me</h2>
-                <p>Hi, I'm Sai Mourya Buchi, a passionate computer science graduate with experience in software development and data management. I'm particularly interested in areas such as big data, artificial intelligence, and software engineering.</p>
-                <h3>Interests</h3>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="Feb 2024 – May 2024">
+                <h3>University of Rochester</h3>
+                <h4>Teaching Assistant - Big Data</h4>
+                <p>
+                    •	Graded assignments, evaluated projects, and conducted tutorial sessions for graduate and undergraduate-level course on Big Data, helped in increasing the class average by till mid by 15% over last year.
+                </p>
+                </hr>
+                <!-- <h5>Highlights</h5>
                 <ul>
-                    <li>Big Data</li>
-                    <li>Artificial Intelligence</li>
-                    <li>Software Engineering</li>
-                </ul>
+                    
+                    <li> |<a href="">Link</a></li>
+                    <li>ks |<a href="">Link</a></li>
+                    <li>ks |<a href="">Link</a></li>
+                </ul> -->
+            </div>
+            
+
+            <div data-date="Aug 2021 – Jul 2023">
+                <h3>Edgeverve Systems</h3>
+                <h4>Software Development Engineer</h4>
+                <p>
+                    •	Designed and developed a comprehensive mobile app from scratch for the product order management needs of multiple companies which contains 30+ screens. App architecture primarily built on Angular, Ionic, Node and Java
+                    •	Integrated features such as offline functionality, real-time synchronization between the backend and local database, invoice generation, secure online payment processing, and support for multiple user profiles in the app
+                    •	Drove performance improvement by 20% through caching, compression, and query optimization, and also developed 21 new APIs incorporating the best software engineering practices.
+                    •	Developed and executed a comprehensive testing strategy by writing 100+ test cases and reducing manual effort by 80% and improving overall efficiency of the testing phase.                    
+                </p>
+                <!-- <h5>Highlights</h5>
+                <ul>
+    
+                    <li>React Application |<a href="">Link</a></li>
+                    <li>ks |<a href="">Link</a></li>
+                    <li>ks |<a href="">Link</a></li>
+                </ul> -->
+            </div>
+
+            <div data-date="May 2020 – Jul 2022">
+                <h3>Pranava Technologies Ltd.</h3>
+                <h4>Software Developer Intern </h4>
+                <p>
+                    •	Designed and implemented RESTful APIs for 15 endpoints using Node.js, Express, and MongoDB, ensuring scalability. Integrated AWS CloudWatch, improving monitoring efficiency by 25% and reducing response time by 15%.
+                    •	Collaborated cross-functionally with teams to orchestrate a 40% reduction in manual data entry errors by designing and deploying Python-based automated bots tailored for seamless integration with client ERP systems.
+                </p>
+                <!-- <h5>Highlights</h5>
+                <ul>
+                    <li> |<a href="">Link</a></li>
+                    <li>ks |<a href="">Link</a></li>
+                    <li>ks |<a href="">Link</a></li>
+                </ul> -->
             </div>
         </div>
-    </section>
+    </div>
+    <!-- End #experience -->
 
-    <section id="experience">
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
         <div class="container">
-            <h2>Experience</h2>
-            <p>University of Rochester, Rochester, NY (Feb 2024 – May 2024)</p>
-            <p>Teaching Assistant - Big Data</p>
-            <ul>
-                <li>Graded assignments, evaluated projects, and conducted tutorial sessions for graduate and undergraduate-level courses on Big Data</li>
-                <li>Increased class average by 15% over last year</li>
-            </ul>
-            <p>Edgeverve Systems, Bengaluru, India (Aug 2021 – Jul 2023)</p>
-            <p>Software Development Engineer</p>
-            <ul>
-                <li>Designed and developed a comprehensive mobile app from scratch for product order management needs of multiple companies</li>
-                <li>Integrated features such as offline functionality, real-time synchronization, invoice generation, and secure online payment processing</li>
-                <li>Drove performance improvement by 20% and developed 21 new APIs</li>
-            </ul>
-            <p>Pranava Technologies Ltd., Hyderabad, India (May 2020 – Aug 2020)</p>
-            <p>Software Developer Intern</p>
-            <ul>
-                <li>Designed and implemented RESTful APIs for 15 endpoints using Node.js, Express, and MongoDB</li>
-                <li>Collaborated cross-functionally to orchestrate a 40% reduction in manual data entry errors</li>
-            </ul>
-        </div>
-    </section>
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Medical Database management system </h3>
+                        <p>
+                            •	Developed a database management system for automated medication dispensing using PHP, HTML, and SQL to improve access to medical supplies in remote areas, ensuring scalability, data integrity, and security.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
 
-    <!-- Add sections for Projects, Skills, and Contact -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Modular Distributed Version Control System (DVCS)</h3>
+                        <p>
+                            •	Engineered and implemented a modular DVCS in Rust, with a focus on scalability and maintainability, to manage and facilitate version control across multiple user repositories.
+                            •	Addressed concurrency and thread safety by integrating Rust’s ownership model for data management, leading to effective synchronization across concurrent user operations.                            
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Bitcoin blockchain parser</h3>
+                        <p>
+                            •	Utilized public blockchain API to automatically extract vital information for each block using string parsing techniques.
+                            •	Validated block timestamps, header hashes, and Merkle Tree hashes to ensure accurate mining of Bitcoin blocks
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>GLAPP: A Non-invasive glucometer </h3>
+                        <p>
+                            •	Designed a non-invasive Glucose Monitoring and Diabetes diagnostic device and android app using flutter that provides real-time glucose metrics using Arduino and IR sensors with sample data from patients and using regression analysis
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Angular</li>
+            <li>React</li>
+            <li>C</li>
+            <li>C#</li>
+            <li>C++</li>
+            <li>Ruby on Rails</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>PostgreSQL</li>
+            <li>AWS</li>
+            <li>Git</li>
+            <li>Android studio</li>
+
+            <!-- <li>Ruby</li>
+            <li>Go</li> -->
+            <li>Node.js</li>
+            <!-- <li>Angular</li>
+            <li>React</li>
+            <li>Java</li>
+            <li>C</li>
+            <li>C#</li>
+            <li>C++</li>
+            <li>Ruby on Rails</li> -->
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/saimourya8@gmail.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Sai Mourya Buchi. All rights reserved.</p>
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2024</span> Sai Mourya Buchi
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
 </body>
+
 </html>
